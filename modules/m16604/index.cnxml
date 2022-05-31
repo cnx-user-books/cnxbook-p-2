@@ -1,0 +1,15 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>a</title>
+  <metadata><md:content-id>undefined</md:content-id><md:title/><md:uuid>03a5ba8b-2cc7-4f8b-bfa9-55bfd7de9fb2</md:uuid>
+</metadata>
+  <content>
+    <para id="id13867698">El lenguaje PHP es un lenguaje de programación de estilo clásico, con esto quiero decir que es un lenguaje de programación con variables, sentencias condicionales, bucles, funciones.... No es un lenguaje de marcas como podría ser HTML, XML o WML. Está mas cercano a JavaScript o a C, para aquellos que conocen estos lenguajes.</para>
+    <para id="id8593848">Pero a diferencia de Java o JavaScript que se ejecutan en el navegador, PHP se ejecuta en el servidor, por eso nos permite acceder a los recursos que tenga el servidor como por ejemplo podría ser una base de datos. El programa PHP es ejecutado en el servidor y el resultado enviado al navegador. El resultado es normalmente una página HTML pero igualmente podría ser una pagina WML.</para>
+    <figure id="id12405891">
+      <media id="idm2340464" alt=""><image src="../../media/graphics1.png" mime-type="image/png" height="199" width="208"/></media>
+    </figure>
+    <para id="id11896883">La ventaja que tiene PHP sobre otros lenguajes de programación que se ejecutan en el servidor (como podrían ser los script CGI Perl), es que nos permite intercalar las sentencias PHP en las paginas HTML, es un concepto algo complicado de entender si no se ha visto nunca como funciona unas paginas PHP o ASP.</para>
+    <para id="id11410728">&lt;!-- Manual de PHP de WebEstilo.com --&gt; &lt;html&gt; &lt;head&gt;    &lt;title&gt;Ejemplo de PHP&lt;/title&gt; &lt;/head&gt; &lt;body&gt; Parte de HTML normal. &lt;BR&gt;&lt;BR&gt; &lt;?php    echo "Parte de PHP&lt;br&gt;";        for($i=0;$i&lt;10;$i++)    {       echo "Linea ".$i."&lt;br&gt;";    } ?&gt; &lt;/body&gt; &lt;/html&gt;</para>
+    <para id="id14282832">El código PHP ejecutado tiene dos partes: la primera imprime "Parte de PHP" y la segunda es un bucle que se ejecuta 10 veces de 0 a 9, por cada vez que se ejecuta se escribe una línea, la variable $i contiene el número de línea que se está escribiendo.</para>
+  </content>
+</document>
